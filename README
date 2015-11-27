@@ -1,0 +1,15 @@
+#LOGGING TO VAGRANT USING WINDOWS
+
+1. Install Putty
+2. convert vagrant key (.vagrant\machines\default\virtualbox\private_key) into ppk file using Putty (save private part)
+3. use the .ppk key in your PuTTY session - configured in Connection > SSH > Auth > Private key file
+4. use host 127.0.0.1
+5. use port 2222 instead of 22
+6. You can set the default username under Connection > Data > Auto-login username (vagrant) (see reference: http://stackoverflow.com/questions/9885108/ssh-to-vagrant-box-in-windows)
+
+# ISSUES
+In case of issues we can go with Chef
+https://gorails.com/guides/using-vagrant-for-rails-development
+
+# SHARING
+https://docs.vagrantup.com/v2/getting-started/share.html
